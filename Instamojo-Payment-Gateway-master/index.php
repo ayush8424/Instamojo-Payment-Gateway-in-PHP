@@ -76,7 +76,7 @@ if($data['success'] == 1){
    $payment_id = $data['payment_request']['id'];
    echo '<script src="https://js.instamojo.com/v1/checkout.js"></script>
     <script>
-        Instamojo.open("https://'.$mode.'.instamojo.com/@rahul13gangotri/'.$payment_id.'"); 
+        Instamojo.open("https://'.$mode.'.instamojo.com/@ayush3gangotri/'.$payment_id.'"); 
     </script>
     ';
        //and for redirect to payment page, use this and uncomment the header() below.
